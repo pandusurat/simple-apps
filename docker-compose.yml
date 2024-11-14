@@ -3,7 +3,7 @@ name: simple
 services:
   app:
     image: pandusurat/apps-pandu
-    bulid: ./app
+    build: ./app
     ports:
       - "5000:3000"
     volumes:
