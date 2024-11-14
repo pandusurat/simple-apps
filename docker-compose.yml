@@ -2,7 +2,7 @@ name: simple
 
 services:
   app:
-    image: pandusurat/apps-pandu
+    image: pandusuryat72/apps-pandu
     build: ./app
     ports:
       - "5000:3000"
