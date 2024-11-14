@@ -1,0 +1,13 @@
+name: simple
+
+services:
+  app:
+    image: pandusurat/apps-pandu
+    bulid: ./app
+    ports:
+      - "5000:3000"
+    volumes:
+      - vol-apps:/app/public/images/
+
+volumes:
+  vol-apps:
